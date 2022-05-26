@@ -1,17 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import propertyImage from '../public/assets/projects/property.jpg';
+import cryptoImage from '../public/assets/projects/crypto.jpg';
 import {RiRadioButtonFill} from 'react-icons/ri';
 
-const property = () => {
+const crypto = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:w-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10 '/> 
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={propertyImage} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={cryptoImage} alt='/' />
         <div  className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finder</h2>
+          <h2 className='py-2'>Cryptoverse</h2>
           <h3> React Js / Tailwind/ Firebase</h3>
         </div> 
       </div>
@@ -27,12 +27,12 @@ const property = () => {
             location of the property integrated with the Google Maps API. User
             authentication is available so you can signup & signin to your
             account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            properties. This is made possible with Coinmarketcap API.
             </p>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             <button className='px-8 py-2 mt-4'>Code</button>
           </div>
-          <div className='col-span-4 md:col-span-1 shadow-xl shadow-gay-400 rounded-xl p-4'>
+          <div className='col-span-5 md:col-span-1 shadow-xl shadow-gay-400 rounded-xl p-4'>
               <div className='p-2'>
                 <p className='text-center font-bold pb-2'>Technologies</p>
                 <div>
@@ -45,10 +45,8 @@ const property = () => {
                   <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1'/>Reactjs</p>
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill className='pr-1'/>GoogleAPI</p>
-                  <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill className='pr-1'/>ZillowAPI</p>
-                </div>
+                    <RiRadioButtonFill />CoingekoAPI</p>
+                  </div>
           
               </div>
             </div>
@@ -61,4 +59,4 @@ const property = () => {
   )
 }
 
-export default property
+export default crypto

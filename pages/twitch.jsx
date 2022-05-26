@@ -1,17 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import propertyImage from '../public/assets/projects/property.jpg';
+import twitchImage from '../public/assets/projects/twitch.jpg';
 import {RiRadioButtonFill} from 'react-icons/ri';
 
-const property = () => {
+const twitch = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:w-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10 '/> 
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={propertyImage} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={twitchImage} alt='/' />
         <div  className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finder</h2>
+          <h2 className='py-2'>TwitchTV clone/h2>
           <h3> React Js / Tailwind/ Firebase</h3>
         </div> 
       </div>
@@ -23,8 +23,8 @@ const property = () => {
             This app was built using React JS and is hosted on Firebase. Users
             are able to search properties based on an Address, City, or ZIP code
             to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
+            be able to view twitch information as well as the specific
+            location of the twitch integrated with the Google Maps API. User
             authentication is available so you can signup & signin to your
             account with an email address in order to save your favorite
             properties. This is made possible with Zillow API.
@@ -61,4 +61,4 @@ const property = () => {
   )
 }
 
-export default property
+export default twitch
