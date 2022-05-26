@@ -25,7 +25,7 @@ const twitch = () => {
             to retrieve a list of active properties currently for sale. You will
             be able to view twitch information as well as the specific
             location of the twitch integrated with the Google Maps API. User
-            authentication is available so you can signup & signin to your
+            authentication is available so you can sign-up and sign-in to your
             account with an email address in order to save your favorite
             properties. This is made possible with Zillow API.
             </p>
@@ -39,11 +39,11 @@ const twitch = () => {
                   <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1'/>Javascript</p>
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill className='pr-1'/>Tailwindcss</p>
+                    <RiRadioButtonFill className='pr-1'/>Tailwind-css</p>
                   <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1'/>Firebase</p>
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill className='pr-1'/>Reactjs</p>
+                    <RiRadioButtonFill className='pr-1'/>React-js</p>
                   <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1'/>GoogleAPI</p>
                   <p className='text-gray-600 py-2 flex items-center'>

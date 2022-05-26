@@ -17,10 +17,10 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-2'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80" alt='/' />
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/contact.avif" alt='/' width="2671" height="1780" />
                         </div>
                         <div>
-                            <h2 className='py-2'>Name here</h2>
+                            <h2 className='py-2'>Hieu Ho </h2>
                             <p>Front-end Developer</p>
                             <p className='py-4'>I&apos;m available for freelance or full-time position. Contact me and let&apos;s talk.</p>
                         </div>
@@ -31,10 +31,10 @@ const Contact = () => {
                                 <Link href="https://www.linkedin.com/in/trung-hi%E1%BA%BFu-h%E1%BB%93-466812119/"><FaLinkedinIn /></Link>
                             </div>   
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>
-                                <FaGithub />
+                                <Link href="https://github.com/hiehoo"><FaGithub /></Link>
                             </div>   
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>
-                                <AiOutlineMail />
+                                <a href='mailto:hieuhotrung95@gmail.com'><AiOutlineMail /></a>
                             </div>   
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>
                                 <BsPersonLinesFill />
