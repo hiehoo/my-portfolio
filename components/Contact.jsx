@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsPersonLinesFill} from 'react-icons/bs';
 import {AiOutlineMail} from 'react-icons/ai';
@@ -16,18 +17,18 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-2'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80" alt='/' />
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80" alt='/' />
                         </div>
                         <div>
                             <h2 className='py-2'>Name here</h2>
                             <p>Front-end Developer</p>
-                            <p className='py-4'>I'm available for freelance or full-time position. Contact me and let's talk.</p>
+                            <p className='py-4'>I&apos;m available for freelance or full-time position. Contact me and let&apos;s talk.</p>
                         </div>
                         <div>
                         <p className='uppercase pt-8'>Connect With Me</p>
                         <div className='flex items-center justify-between py-4'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>
-                                <FaLinkedinIn />
+                                <Link href="https://www.linkedin.com/in/trung-hi%E1%BA%BFu-h%E1%BB%93-466812119/"><FaLinkedinIn /></Link>
                             </div>   
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>
                                 <FaGithub />
